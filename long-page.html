@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTM検証</title>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M94BGM4N");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-50 text-slate-800">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-M94BGM4N"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header
+      class="sticky top-0 z-10 border-b border-slate-200 bg-white/90 backdrop-blur"
+    >
+      <div
+        class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4"
+      >
+        <div>
+          <p class="text-sm font-semibold tracking-wide text-indigo-600">
+            MOCK SITE
+          </p>
+          <h1 class="text-lg font-bold">サービス紹介ページ</h1>
+        </div>
+        <nav class="hidden gap-6 text-sm md:flex">
+          <a href="#about" class="hover:text-indigo-600">About</a>
+          <a href="#features" class="hover:text-indigo-600">Features</a>
+          <a href="#plans" class="hover:text-indigo-600">Plans</a>
+          <a href="#contact" class="hover:text-indigo-600">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="bg-gradient-to-b from-indigo-50 to-white">
+        <div class="mx-auto max-w-6xl px-6 py-24 md:py-32">
+          <div class="max-w-3xl">
+            <p
+              class="mb-4 inline-block rounded-full bg-indigo-100 px-3 py-1 text-sm font-medium text-indigo-700"
+            >
+              シンプルなLPモック
+            </p>
+            <h2 class="text-4xl font-bold leading-tight md:text-6xl">
+              情報をわかりやすく伝える
+              <span class="text-indigo-600">縦長ページ</span>
+            </h2>
+            <p
+              class="mt-6 max-w-2xl text-base leading-8 text-slate-600 md:text-lg"
+            >
+              Tailwind CDNだけで構成した、簡潔で見やすいモックページです。
+              ヒーロー、特徴、実績、料金、FAQ、お問い合わせまで、最低限の構成をまとめています。
+            </p>
+            <div class="mt-8 flex flex-wrap gap-4">
+              <a
+                href="#contact"
+                class="rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white hover:bg-indigo-700"
+              >
+                お問い合わせ
+              </a>
+              <a
+                href="#features"
+                class="rounded-lg border border-slate-300 bg-white px-6 py-3 font-semibold hover:bg-slate-50"
+              >
+                詳しく見る
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="mx-auto max-w-6xl px-6 py-20">
+        <div class="grid gap-10 md:grid-cols-2 md:items-center">
+          <div>
+            <p class="text-sm font-semibold text-indigo-600">ABOUT</p>
+            <h3 class="mt-2 text-3xl font-bold">
+              必要な情報を、必要な順番で。
+            </h3>
+            <p class="mt-5 leading-8 text-slate-600">
+              このモックは、長いスクロールページの雰囲気確認用です。
+              実案件のワイヤーやデザインたたき台として、そのまま流用しやすいように構成を絞っています。
+            </p>
+            <p class="mt-4 leading-8 text-slate-600">
+              カード、見出し、CTA、FAQなど、LPでよく使う要素をシンプルに配置しています。
+            </p>
+          </div>
+          <div
+            class="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm"
+          >
+            <div class="space-y-4">
+              <div class="rounded-xl bg-slate-100 p-4">ヒーローセクション</div>
+              <div class="rounded-xl bg-slate-100 p-4">特徴紹介</div>
+              <div class="rounded-xl bg-slate-100 p-4">実績・数字</div>
+              <div class="rounded-xl bg-slate-100 p-4">料金表</div>
+              <div class="rounded-xl bg-slate-100 p-4">FAQ・問い合わせ</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="bg-white py-20">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="max-w-2xl">
+            <p class="text-sm font-semibold text-indigo-600">FEATURES</p>
+            <h3 class="mt-2 text-3xl font-bold">特徴</h3>
+            <p class="mt-4 leading-8 text-slate-600">
+              情報量はしっかり確保しつつ、見た目は軽く保つ構成です。
+            </p>
+          </div>
+
+          <div class="mt-12 grid gap-6 md:grid-cols-3">
+            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h4 class="text-xl font-bold">見やすいレイアウト</h4>
+              <p class="mt-3 leading-7 text-slate-600">
+                余白を広めに取り、長いページでも読み疲れしにくい設計です。
+              </p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h4 class="text-xl font-bold">再利用しやすい</h4>
+              <p class="mt-3 leading-7 text-slate-600">
+                セクション単位で差し替えやすく、モックから本番への展開も容易です。
+              </p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h4 class="text-xl font-bold">CDNだけで完結</h4>
+              <p class="mt-3 leading-7 text-slate-600">
+                ビルド環境なしでもすぐにブラウザ確認できます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 py-20 text-white">
+        <div class="mx-auto max-w-6xl px-6">
+          <p class="text-sm font-semibold text-indigo-300">NUMBERS</p>
+          <h3 class="mt-2 text-3xl font-bold">数字で見るイメージ</h3>
+          <div class="mt-10 grid gap-6 md:grid-cols-4">
+            <div class="rounded-2xl bg-white/10 p-6">
+              <p class="text-4xl font-bold">120+</p>
+              <p class="mt-2 text-sm text-slate-300">導入企業想定</p>
+            </div>
+            <div class="rounded-2xl bg-white/10 p-6">
+              <p class="text-4xl font-bold">98%</p>
+              <p class="mt-2 text-sm text-slate-300">満足度想定</p>
+            </div>
+            <div class="rounded-2xl bg-white/10 p-6">
+              <p class="text-4xl font-bold">24h</p>
+              <p class="mt-2 text-sm text-slate-300">サポート受付</p>
+            </div>
+            <div class="rounded-2xl bg-white/10 p-6">
+              <p class="text-4xl font-bold">1日</p>
+              <p class="mt-2 text-sm text-slate-300">最短公開イメージ</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="plans" class="mx-auto max-w-6xl px-6 py-20">
+        <div class="max-w-2xl">
+          <p class="text-sm font-semibold text-indigo-600">PLANS</p>
+          <h3 class="mt-2 text-3xl font-bold">料金プラン</h3>
+          <p class="mt-4 leading-8 text-slate-600">
+            モック用の仮料金です。比較しやすいように3プラン構成にしています。
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+          <div
+            class="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm"
+          >
+            <h4 class="text-xl font-bold">Starter</h4>
+            <p class="mt-3 text-4xl font-bold">¥10,000</p>
+            <p class="mt-1 text-sm text-slate-500">/ month</p>
+            <ul class="mt-6 space-y-3 text-sm text-slate-600">
+              <li>基本ページ構成</li>
+              <li>メールサポート</li>
+              <li>テンプレート利用</li>
+            </ul>
+          </div>
+
+          <div
+            class="rounded-2xl border-2 border-indigo-600 bg-white p-8 shadow-sm"
+          >
+            <p
+              class="inline-block rounded-full bg-indigo-100 px-3 py-1 text-xs font-semibold text-indigo-700"
+            >
+              RECOMMENDED
+            </p>
+            <h4 class="mt-4 text-xl font-bold">Standard</h4>
+            <p class="mt-3 text-4xl font-bold">¥30,000</p>
+            <p class="mt-1 text-sm text-slate-500">/ month</p>
+            <ul class="mt-6 space-y-3 text-sm text-slate-600">
+              <li>カスタムデザイン</li>
+              <li>優先サポート</li>
+              <li>簡易分析レポート</li>
+            </ul>
+          </div>
+
+          <div
+            class="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm"
+          >
+            <h4 class="text-xl font-bold">Premium</h4>
+            <p class="mt-3 text-4xl font-bold">¥80,000</p>
+            <p class="mt-1 text-sm text-slate-500">/ month</p>
+            <ul class="mt-6 space-y-3 text-sm text-slate-600">
+              <li>フルカスタム対応</li>
+              <li>専任サポート</li>
+              <li>運用改善提案</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-100 py-20">
+        <div class="mx-auto max-w-4xl px-6">
+          <p class="text-sm font-semibold text-indigo-600">FLOW</p>
+          <h3 class="mt-2 text-3xl font-bold">導入までの流れ</h3>
+          <div class="mt-10 space-y-6">
+            <div class="rounded-2xl bg-white p-6 shadow-sm">
+              <p class="text-sm font-semibold text-indigo-600">STEP 1</p>
+              <h4 class="mt-2 text-xl font-bold">お問い合わせ</h4>
+              <p class="mt-2 leading-7 text-slate-600">
+                フォームまたはメールからご連絡いただきます。
+              </p>
+            </div>
+            <div class="rounded-2xl bg-white p-6 shadow-sm">
+              <p class="text-sm font-semibold text-indigo-600">STEP 2</p>
+              <h4 class="mt-2 text-xl font-bold">要件整理</h4>
+              <p class="mt-2 leading-7 text-slate-600">
+                必要な機能やページ構成をヒアリングして整理します。
+              </p>
+            </div>
+            <div class="rounded-2xl bg-white p-6 shadow-sm">
+              <p class="text-sm font-semibold text-indigo-600">STEP 3</p>
+              <h4 class="mt-2 text-xl font-bold">制作・確認</h4>
+              <p class="mt-2 leading-7 text-slate-600">
+                モック作成後、必要に応じて修正を加えながら公開準備を進めます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-4xl px-6 py-20">
+        <p class="text-sm font-semibold text-indigo-600">FAQ</p>
+        <h3 class="mt-2 text-3xl font-bold">よくある質問</h3>
+        <div class="mt-10 space-y-4">
+          <div class="rounded-2xl border border-slate-200 bg-white p-6">
+            <h4 class="font-bold">すぐに使えますか？</h4>
+            <p class="mt-2 leading-7 text-slate-600">
+              はい。Tailwind CDN
+              を読み込める環境であれば、そのまま表示確認できます。
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6">
+            <h4 class="font-bold">デザイン調整はしやすいですか？</h4>
+            <p class="mt-2 leading-7 text-slate-600">
+              クラスを書き換えるだけなので、配色や余白、文字サイズの調整は容易です。
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-6">
+            <h4 class="font-bold">本番用にも使えますか？</h4>
+            <p class="mt-2 leading-7 text-slate-600">
+              モック用途向けですが、小規模な検証ページや仮ページには十分流用できます。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="bg-indigo-600 py-20 text-white">
+        <div class="mx-auto max-w-4xl px-6 text-center">
+          <p class="text-sm font-semibold text-indigo-200">CONTACT</p>
+          <h3 class="mt-2 text-3xl font-bold">まずはお気軽にご相談ください</h3>
+          <p class="mt-4 leading-8 text-indigo-100">
+            簡単なモック、LP、管理画面のたたき台など、用途に応じて調整可能です。
+          </p>
+          <div class="mt-8 flex flex-wrap justify-center gap-4">
+            <a
+              href="#"
+              class="rounded-lg bg-white px-6 py-3 font-semibold text-indigo-700 hover:bg-slate-100"
+            >
+              フォームから問い合わせる
+            </a>
+            <a
+              href="#"
+              class="rounded-lg border border-white/40 px-6 py-3 font-semibold hover:bg-white/10"
+            >
+              資料を見る
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white">
+      <div class="mx-auto max-w-6xl px-6 py-8 text-sm text-slate-500">
+        © 2026 Mock Company. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>

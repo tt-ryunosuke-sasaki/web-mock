@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M94BGM4N");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webのモックページ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-50 text-slate-800">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-M94BGM4N"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <main class="mx-auto max-w-xl px-6 py-16">
+      <header class="mb-10 text-center">
+        <h1 class="text-2xl font-bold">リンク一覧</h1>
+        <p class="mt-2 text-sm text-slate-500">Webサイトのモックページ。</p>
+      </header>
+
+      <section class="space-y-3">
+        <a
+          href="gtm.html"
+          class="block rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-sm hover:bg-slate-50"
+        >
+          <div class="font-semibold">GTM検証</div>
+          <div class="text-sm text-slate-500">
+            Google Tag Managerの動作確認の最小構成
+          </div>
+        </a>
+
+        <a
+          href="long-page.html"
+          class="block rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-sm hover:bg-slate-50"
+        >
+          <div class="font-semibold">縦長ページ</div>
+          <div class="text-sm text-slate-500">
+            ポップアップ表示の動作確認用の縦長ページ
+          </div>
+        </a>
+
+        <a
+          href="members-card.html"
+          class="block rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-sm hover:bg-slate-50"
+        >
+          <div class="font-semibold">会員証検証</div>
+          <div class="text-sm text-slate-500">モバイル会員証の表示確認</div>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
